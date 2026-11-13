@@ -1,0 +1,19 @@
+[project]
+name = "url-shortener"
+version = "0.1.0"
+description = "A lightweight Python command-line URL shortener using TinyURL via pyshorteners."
+readme = "README.md"
+authors = [
+    { name = "OmarShemis", email = "omarshimais@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "pyshorteners>=1.0.1",
+]
+
+[project.scripts]
+url-shortener = "url_shortener:main"
+
+[build-system]
+requires = ["uv_build>=0.12.18,<0.13.0"]
+build-backend = "uv_build"
