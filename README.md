@@ -1,3 +1,7 @@
+![URL Shortener — A long link. A short conversation.](assets/header.svg)
+
+[← Omar’s portfolio](https://github.com/OmarShemis) · [Usage guide](docs/usage.md)
+
 # URL Shortener
 
 A lightweight Python command-line application by Omar Shemis that converts a URL into a shorter TinyURL link using `pyshorteners`.
@@ -54,3 +58,7 @@ See the [usage guide](docs/usage.md) for more details.
 ## Current scope
 
 This is a small interactive script. It does not currently implement URL validation, custom aliases, local history, or application-level error handling. Availability depends on the external shortening service.
+
+---
+
+Built by [Omar Shemis](https://github.com/OmarShemis) · [Explore more projects](https://github.com/OmarShemis?tab=repositories)
